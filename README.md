@@ -1,5 +1,5 @@
 # README
-this is a retro Rails application with ver.6
+this is app to check the operation of ajax for me.
 
 
 
@@ -15,5 +15,10 @@ Things you may want to cover:
 * Database creation: MySQL
 
 ## ref
-- [Rails 6 で Webpacker をやめた結果・・・ - Qiita](https://qiita.com/scivola/items/356e5769e0a8095ab471)
-- [Rails 6: How to disable Webpack and use Sprockets instead - Stack Overflow](https://stackoverflow.com/questions/55213868/rails-6-how-to-disable-webpack-and-use-sprockets-instead)
+- [【Railsで非同期通信】RailsでAjaxを利用する時にjQueryを使う方法 | shin>>media](https://shinmedia20.com/rails-ajax-jquery)
+
+## Problem
+- can't get data(null in `app/views/fruits/index.html.erb`, line69)
+- i can't get why
+  - can return json value if line68 is `render json: @fruit`
+  - can't return json value if line68 is `render json: @content`
